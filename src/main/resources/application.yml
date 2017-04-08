@@ -1,6 +1,15 @@
 
 server:
   port: 8083
+  
+endpoints:
+  sensitive: true
+  health:
+    sensitive: true
+
+management:
+  security:
+    enabled: false
 
 spring:
   boot:
